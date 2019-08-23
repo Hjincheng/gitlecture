@@ -1,0 +1,22 @@
+[user]
+	email = service@t-firefly.com
+	name = huangjc
+[color]
+	ui = auto
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	st = status
+	cm = commit
+	cp = cherry-pick
+	#plog = "log --oneline"
+	plog = log --pretty=format:\"%Cred%h %Creset - %Cgreen%<(8,trunc)%an %<(12,trunc)%ai%x08%x08 : %C(yellow)%s\"
+	pplog = "log --oneline --date=short"
+	df = difftool
+	ls = ls-files
+	repo-config = config
+
+
+[core]
+	editor = vim
